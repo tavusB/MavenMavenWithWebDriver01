@@ -20,5 +20,7 @@ public class TestWithMaven02 {
 	driver.get("https://amazon.com/");
 	
 	driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys("fidget" + Keys.ENTER);
+	
+	driver.quit();
 }
 }
